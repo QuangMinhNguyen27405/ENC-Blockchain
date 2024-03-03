@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <title>Blockchain as digital identifier</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/WhyBlockchain.css">
+</head>
+<body class="container">
+    <section class="col-10 mx-auto bg-white">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-white opacity-50  text-center shadow p-3 mb-5 bg-body rounded">
+            <div class="container-fluid">
+              <img class="col-4" src="image/blockchain-icon.svg" style="height: 50px;">
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="container-fluid navbar-nav">
+                    <a class="mx-auto text-dark" href="index.html"><b>Home</b></a>
+                    <a class="mx-auto text-dark" href="PrivacyRisk.html"><b>Privacy Risks</b></a>
+                    <a class="mx-auto text-dark" href="WhyBlockchain.html"><b>Why blockchain?</b></a>
+                    <a class="mx-auto text-dark" href="Action.html"><b>Action</b></a>
+                    <a class="mx-auto text-dark" href="Sources.html"><b>Sources</b></a>
+                </div>
+              </div>
+            </div>
+        </nav>
+        <header class="container">
+            <section>
+                <section>
+                    <h1 class="text-center fs-2">Discover the unlimited possibility: What makes blockchain so special</h1>
+                </section>
+                <section class="my-5">
+                    <section style="width: 700px; height: 400px;" class="mx-auto">
+                        <iframe class="rounded" width="700" height="400" src="https://www.youtube.com/embed/SSo_EIwHSd4" title="How does a blockchain work - Simply Explained" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </section>
+                </section>
+            </section>
+        </header>
+        <main class="my-5 mx-4 container">
+            <section class="mx-5">
+                <section class="mx-5 mt-5">
+                    <ul class="nav nav-pills mb-3 mx-auto text-center" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-definition" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Definition</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-breakdown" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Breakdown</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-privacy" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Privacy</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-immutability" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Immutability/Intergrity</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content" style="min-width: 300px;" id="pills-tabContent">
+                        <div class="tab-pane fade show active container py-3" id="pills-definition" role="tabpanel" aria-labelledby="pills-home-tab">
+                            <section class="row">
+                                <section class="col-6">
+                                    <p><b>Definition:</b> <q>A blockchain is a distributed ledger that duplicates and distributes transactions across the network of computers participating in the blockchain</q></p>
+                                    <p>Each block in a chain of blocks typically consists of its data, hash (address), and a pointer to the previous block's hash. This ensures that the record cannot be changed retroactively without also changing all succeeding blocks and obtaining network consensus. </p>
+                                </section>
+                                <section class="col-6">
+                                    <img src="image/blockchain-security.jpg" alt="" style="max-width: 400px;">
+                                </section>
+                            </section>
+                        </div>
+                        <div class="tab-pane fade py-1 container py-3" id="pills-breakdown" role="tabpanel" aria-labelledby="pills-profile-tab">
+                            <section class="row">
+                                <section class="col-6">
+                                    <p><b>Breakdown explanation:</b></p>
+                                    <ul>
+                                        <li>Blocks: a collection of data.</li>
+                                        <li>Each blocks consists of a identifier called hash, and a reference to the previous block's hash.</li>
+                                        <li>The reference of the a block points toward the previous one's hash, forming an unbreakable chain.</li>
+                                    </ul>
+                                </section>
+                                <section class="col-6">
+                                    <img src="image/blockchain-security.jpg" alt="" style="max-width: 400px;">
+                                </section>
+                            </section>
+                        </div>
+                        <div class="tab-pane fade container py-3" id="pills-privacy" role="tabpanel" aria-labelledby="pills-contact-tab">
+                            <section class="container">
+                                <section class="row">
+                                    <section class="col-6">
+                                        <p><b>Contemporary centralized IoT databases:</b> data is collected and processed by a central entity.</p>
+                                        <p> -> Risks of data usage for secondary purposes and online activities tracking.</p>
+                                        <p> -> Risks of information for personalized contents and ads</p>
+                                    </section>
+                                    <section class="col-6">
+                                        <p><b>Decentralized blockchain-based IoT databases:</b> there is no entity has control over the data.</p>
+                                        <p> -> Data is secured to the user in a hackproof cryptographical format.</p>
+                                        <p> -> Data can only be accessed by user, reducing the chance of unwilling data usage.</p>
+                                    </section>
+                                </section>
+                            </section>
+                        </div>
+                        <div class="tab-pane fade py-1 container py-3" id="pills-immutability" role="tabpanel" aria-labelledby="pills-profile-tab">
+                            <section>
+                                <p><b>Immuatbility</b></p>
+                                <p>A blockchain-based IoT works as a distributed system where data is stored in each block and interconnected through encrypted hashes. This led to the <b>immutable characteristic</b> of blockchain, in which altering the record on one block requires changing every block in the blockchain - a nearly impossible action</p>
+                                <p>-> Blockchain is <b>tamperproof</b></p>
+                            </section>
+                        </div>
+                    </div>
+                </section>
+                <section class="mx-5 pb-5">
+                    <section>
+                        <section class="border-bottom border-5 border-dark py-3">
+                            <h2>What changes did blockchain made?</h2>
+                        </section>
+                        <section class="container my-3">
+                            <section>
+                                <p>Blockchain has been widely associated with cryptography and finance sectors. It plays a central role in crypto currency and smart contracts. Bitcoin, for example, runs trades beyond national level. The currency enables people to trade international, regardless of their place and currency. Furthermore, the advent of smart contracts has expanded blockchain's impact beyond currency, offering a programmable mechanism. Smart contracts' automation reduces costs and increases the speed of transactions.</p>
+                            </section>
+                            <p>In other fields, blockchain's applications have yet to be revealed. Some of which are in the field of medical care and logistics. Blockchain technology revolutionizes the healthcare industry by ensuring secure, transparent, and unalterable storage of patient records. Traditional healthcare systems often face challenges related to data integrity and security breaches. With blockchain, each patient's medical history is stored in a decentralized and tamper-resistant database. In the logistics industry, blockchain enhances traceability and transparency across the supply chain. From manufacturing to delivery, every stage of a product's journey can be recorded on a blockchain. This not avoids fraud and unauthentic product, but also ensure the ethical practice of production.</p>
+                        </section>
+                        <section class="container my-4">
+                            <div>
+                                <div class="my-3">
+                                  <div class="card">
+                                    <div class="card-body">
+                                        <span class="mx-3"><i class="fa fa-money fa-2x" aria-hidden="true"></i></span>
+                                        <span class="mx-3 fs-5">Smart contracts made trading accurate, transparent, efficient, and secured.</span>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="my-3">
+                                    <div class="card">
+                                      <div class="card-body">
+                                          <span class="mx-3"><i class="fa fa-btc fa-2x" aria-hidden="true"></i></span>
+                                          <span class="mx-3 fs-5">Bitcoin is a inflation-proof, encrypted currency enabling trades internationally.</span>
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="my-3">
+                                    <div class="card">
+                                      <div class="card-body">
+                                          <span class="mx-3"><i class="fa fa-plus-square fa-2x" aria-hidden="true"></i></span>
+                                          <span class="mx-3 fs-5">Medical records can be stored in a tamper-resistant, intergrity, and private way.</span>
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="my-3">
+                                    <div class="card">
+                                      <div class="card-body">
+                                          <span class="mx-3"><i class="fa fa-truck fa-2x" aria-hidden="true"></i></span>
+                                          <span class="mx-3 fs-5">Production steps can be verified and tracked, from manufracturing to delivery.</span>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </section>
+                </section>
+            </section>
+        </main>
+        <footer class="px-0 pb-5 bg-dark">
+            <section class="container">
+                <section class="row mx-5 px-5">
+                    <section class="col-4">
+                        <div class="mt-5 mb-2">
+                            <h5 class="text-light">Contact me</h5>
+                        </div>
+                    </section>
+                    <section class="col-4">
+                        <div class="mt-5 mb-2">
+                            <a href=""><i style="color: white;" class="fa fa-instagram fa-3x" aria-hidden="true"></i></a>
+                            <a href="" class="mx-5"><i style="color: white;" class="fa fa-facebook fa-3x" aria-hidden="true"></i></a>
+                        </div>
+                    </section>
+                    <section class="col-4 text-left">
+                        <div class="mt-5 mb-2">
+                            <a class="text-light" href="mailto:anonymous@gmail.com">Email: anonymous@gmail.com</a>
+                        </div>
+                        <div class="my-2">
+                            <a class="text-light" href="tel:*">Telephone: (850)-*** ****</a>
+                        </div>
+                    </section>
+                </section>
+            </section>
+        </footer>
+        <script>
+        </script>
+    </section>
+</body>
+</html>

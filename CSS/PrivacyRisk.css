@@ -1,0 +1,21 @@
+* 
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color:darkturquoise;
+    background-repeat: none;
+    background-attachment: fixed;
+}
+
+a 
+{
+    text-decoration: none;
+}
+
+#checker:hover
+{
+    box-shadow: 0 4px 8px 0 orange, 0 6px 20px 0 orange !important;
+}
